@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Selection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #282c34;
+            color: #fff;
+        }
+        .game-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 2300px;
+        }
+        .game {
+            background: #ffaa00;
+            margin: 15px;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: transform 0.9s, background-color 0.2s;
+        }
+        .game:hover {
+            transform: scale(1.15);
+            background-color: #ffaa00;
+        }
+        .game img {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <div class="game" onclick="showGameDetails('game1')">
+            <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/072022/call_of_duty_modern_warfare_ii_2022.jpg?.t3P9rcKclEIrD7XFKMoP96Vtgg6iPcs&itok=g9Jc3AFP" alt="Game 1">            
+            <p><a href="https://www.callofduty.com/modernwarfare2">Call of Duty</a>    </p>
+            <style>
+                p{
+                font-size:20px;
+                }
+            </style>
+            
+        </div>
+        <div class="game" onclick="showGameDetails('game2')">
+            <img src="https://steamuserimages-a.akamaihd.net/ugc/1289667502762077035/0BBD690EF2F84B522A6E1D34EBE5F1513685C089/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="Game 2">
+            <p><a href="https://playvalorant.com/en-gb/">Valorant</a></p>
+    </div>
+    </script>
+</body>
+</html>
